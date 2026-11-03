@@ -1,0 +1,707 @@
+{
+  "runs": [
+    {
+      "run": "compound-llm-completion-seed0",
+      "condition": "compound",
+      "method": "llm-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-llm-completion-seed1",
+      "condition": "compound",
+      "method": "llm-completion",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 11,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-llm-completion-seed2",
+      "condition": "compound",
+      "method": "llm-completion",
+      "seed": 2,
+      "candidate_count": 1,
+      "valid_candidates": 1,
+      "failure": "provider_or_budget_error:RuntimeError:Prime inference HTTP 429",
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-llm-reward-seed0",
+      "condition": "compound",
+      "method": "llm-reward",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 10,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-llm-reward-seed1",
+      "condition": "compound",
+      "method": "llm-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-llm-reward-seed2",
+      "condition": "compound",
+      "method": "llm-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-completion-seed0",
+      "condition": "compound",
+      "method": "scripted-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-completion-seed1",
+      "condition": "compound",
+      "method": "scripted-completion",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-completion-seed2",
+      "condition": "compound",
+      "method": "scripted-completion",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-reward-seed0",
+      "condition": "compound",
+      "method": "scripted-reward",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-reward-seed1",
+      "condition": "compound",
+      "method": "scripted-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "compound-scripted-reward-seed2",
+      "condition": "compound",
+      "method": "scripted-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.0234375,
+      "deployed_completion": 0.0234375
+    },
+    {
+      "run": "crosswind-llm-completion-seed0",
+      "condition": "crosswind",
+      "method": "llm-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 5,
+      "selection_gain": 0.15625,
+      "accepted": true,
+      "approval_reasons": [],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.15625
+    },
+    {
+      "run": "crosswind-llm-completion-seed1",
+      "condition": "crosswind",
+      "method": "llm-completion",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-llm-completion-seed2",
+      "condition": "crosswind",
+      "method": "llm-completion",
+      "seed": 2,
+      "candidate_count": 0,
+      "valid_candidates": 0,
+      "failure": "provider_or_budget_error:RuntimeError:Prime inference HTTP 429",
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-llm-reward-seed0",
+      "condition": "crosswind",
+      "method": "llm-reward",
+      "seed": 0,
+      "candidate_count": 1,
+      "valid_candidates": 1,
+      "failure": "provider_or_budget_error:RuntimeError:Prime inference HTTP 429",
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-llm-reward-seed1",
+      "condition": "crosswind",
+      "method": "llm-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 0,
+      "selection_gain": 0.140625,
+      "accepted": true,
+      "approval_reasons": [],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.140625
+    },
+    {
+      "run": "crosswind-llm-reward-seed2",
+      "condition": "crosswind",
+      "method": "llm-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 1,
+      "selection_gain": 0.109375,
+      "accepted": true,
+      "approval_reasons": [],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.140625
+    },
+    {
+      "run": "crosswind-scripted-completion-seed0",
+      "condition": "crosswind",
+      "method": "scripted-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-scripted-completion-seed1",
+      "condition": "crosswind",
+      "method": "scripted-completion",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 9,
+      "selection_gain": 0.09375,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-scripted-completion-seed2",
+      "condition": "crosswind",
+      "method": "scripted-completion",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-scripted-reward-seed0",
+      "condition": "crosswind",
+      "method": "scripted-reward",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-scripted-reward-seed1",
+      "condition": "crosswind",
+      "method": "scripted-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 3,
+      "selection_gain": 0.0625,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "crosswind-scripted-reward-seed2",
+      "condition": "crosswind",
+      "method": "scripted-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.09765625,
+      "deployed_completion": 0.09765625
+    },
+    {
+      "run": "weak_main-llm-completion-seed0",
+      "condition": "weak_main",
+      "method": "llm-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 10,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-llm-completion-seed1",
+      "condition": "weak_main",
+      "method": "llm-completion",
+      "seed": 1,
+      "candidate_count": 5,
+      "valid_candidates": 5,
+      "failure": null,
+      "selected": 0,
+      "selection_gain": 0.0625,
+      "accepted": true,
+      "approval_reasons": [],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.84375
+    },
+    {
+      "run": "weak_main-llm-completion-seed2",
+      "condition": "weak_main",
+      "method": "llm-completion",
+      "seed": 2,
+      "candidate_count": 11,
+      "valid_candidates": 11,
+      "failure": "provider_or_budget_error:RuntimeError:Prime inference HTTP 429",
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-llm-reward-seed0",
+      "condition": "weak_main",
+      "method": "llm-reward",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 5,
+      "selection_gain": 0.109375,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-llm-reward-seed1",
+      "condition": "weak_main",
+      "method": "llm-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-llm-reward-seed2",
+      "condition": "weak_main",
+      "method": "llm-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 11,
+      "failure": null,
+      "selected": 10,
+      "selection_gain": 0.15625,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-completion-seed0",
+      "condition": "weak_main",
+      "method": "scripted-completion",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-completion-seed1",
+      "condition": "weak_main",
+      "method": "scripted-completion",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 5,
+      "selection_gain": 0.125,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-completion-seed2",
+      "condition": "weak_main",
+      "method": "scripted-completion",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-reward-seed0",
+      "condition": "weak_main",
+      "method": "scripted-reward",
+      "seed": 0,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-reward-seed1",
+      "condition": "weak_main",
+      "method": "scripted-reward",
+      "seed": 1,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": 5,
+      "selection_gain": 0.125,
+      "accepted": false,
+      "approval_reasons": [
+        "insufficient_completion_improvement"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    },
+    {
+      "run": "weak_main-scripted-reward-seed2",
+      "condition": "weak_main",
+      "method": "scripted-reward",
+      "seed": 2,
+      "candidate_count": 12,
+      "valid_candidates": 12,
+      "failure": null,
+      "selected": null,
+      "selection_gain": null,
+      "accepted": false,
+      "approval_reasons": [
+        "no_candidate_passed_selection"
+      ],
+      "baseline_completion": 0.80859375,
+      "deployed_completion": 0.80859375
+    }
+  ],
+  "contrasts": [
+    {
+      "condition": "weak_main",
+      "generator": "llm",
+      "mean_deployed_difference": 0.01171875,
+      "counts": {
+        "reward": [
+          2,
+          0
+        ],
+        "completion": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "condition": "weak_main",
+      "generator": "scripted",
+      "mean_deployed_difference": 0.0,
+      "counts": {
+        "reward": [
+          1,
+          0
+        ],
+        "completion": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "condition": "crosswind",
+      "generator": "llm",
+      "mean_deployed_difference": -0.009114583333333334,
+      "counts": {
+        "reward": [
+          2,
+          2
+        ],
+        "completion": [
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "condition": "crosswind",
+      "generator": "scripted",
+      "mean_deployed_difference": 0.0,
+      "counts": {
+        "reward": [
+          1,
+          0
+        ],
+        "completion": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "condition": "compound",
+      "generator": "llm",
+      "mean_deployed_difference": 0.0,
+      "counts": {
+        "reward": [
+          0,
+          0
+        ],
+        "completion": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "condition": "compound",
+      "generator": "scripted",
+      "mean_deployed_difference": 0.0,
+      "counts": {
+        "reward": [
+          0,
+          0
+        ],
+        "completion": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "budget_after": {
+    "cap_usd": 20.0,
+    "estimated_committed_usd": 0.897071482,
+    "pending_requests": 7,
+    "requests": 341
+  },
+  "estimated_ledger_increase_usd": 0.302176982
+}

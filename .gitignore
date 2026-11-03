@@ -1,0 +1,30 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+.venv-control/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+output/
+*.egg-info/
+# Local supplied references and obsolete generated releases are not publication inputs.
+dump/
+release/
+configs/
+data/
+results/**/videos-initial/
+# Checkpoints are reconstructed from the pinned upstream source and recorded edits.
+results/**/*.npz
+
+# Author-only build/export tooling, like BPK's ignored paper/ directory.
+/author/
+/ARTIFACTS.json
+# Generated experiment media and manuscript tables are rebuilt from retained records.
+results/**/*.png
+results/**/*.svg
+results/**/*.mp4
+results/**/*.tex

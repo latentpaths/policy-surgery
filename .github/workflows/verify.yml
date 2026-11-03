@@ -1,0 +1,20 @@
+name: Verify experiments
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Install locked environment
+        run: |
+          python -m pip install uv==0.12.12
+          uv sync --frozen --python 3.12 --group dev
+      - name: Test and reproduce without credentials or inference
+        run: |
+          uv run ruff check policy_surgery tests
+          uv run ruff format --check policy_surgery tests
+          uv run pytest -q
+          uv run policy-surgery verify
+          uv run policy-surgery reproduce

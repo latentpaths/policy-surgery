@@ -1,0 +1,97 @@
+{
+  "protocol_sha256": "32e51e6543a76204ab542132f16d7fa05a41c60b0f1c56cba59e33e51123e53d",
+  "runs": [
+    {
+      "run": "compound-llm-glm-seed1",
+      "condition": "compound",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "compound-llm-seed0",
+      "condition": "compound",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "compound-scripted-seed0",
+      "condition": "compound",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "crosswind-llm-glm-seed1",
+      "condition": "crosswind",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "crosswind-llm-seed0",
+      "condition": "crosswind",
+      "candidate": {
+        "id": 3,
+        "actor_sha256": "4b0e3f594908721cece0ae4c0422edd618b849afd8cbc02a54a134f3e7aebd50",
+        "path": "/Users/ayushb/home/spaces/latentpaths/repositories/latentpaths/self-editing-agents/results/control-v2/search/crosswind-llm-seed0/candidates/03.npz"
+      },
+      "goal_gain": 0.109375,
+      "nominal_gain": 0.09375,
+      "reason": "completion_first_selection"
+    },
+    {
+      "run": "crosswind-scripted-seed0",
+      "condition": "crosswind",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "mirrored_thrusters-llm-seed0",
+      "condition": "mirrored_thrusters",
+      "candidate": {
+        "id": 0,
+        "actor_sha256": "6e91a5098a7efff15472e1bde9f591dc437b80654969e05bbcd7e750972a0a82",
+        "path": "/Users/ayushb/home/spaces/latentpaths/repositories/latentpaths/self-editing-agents/results/control-v2/search/mirrored_thrusters-llm-seed0/candidates/00.npz"
+      },
+      "goal_gain": 0.84375,
+      "nominal_gain": -0.84375,
+      "reason": "completion_first_selection"
+    },
+    {
+      "run": "mirrored_thrusters-scripted-seed1",
+      "condition": "mirrored_thrusters",
+      "candidate": {
+        "id": 0,
+        "actor_sha256": "6e91a5098a7efff15472e1bde9f591dc437b80654969e05bbcd7e750972a0a82",
+        "path": "/Users/ayushb/home/spaces/latentpaths/repositories/latentpaths/self-editing-agents/results/control-v2/search/mirrored_thrusters-scripted-seed1/candidates/00.npz"
+      },
+      "goal_gain": 0.84375,
+      "nominal_gain": -0.84375,
+      "reason": "completion_first_selection"
+    },
+    {
+      "run": "weak_main-llm-seed0",
+      "condition": "weak_main",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    },
+    {
+      "run": "weak_main-scripted-seed0",
+      "condition": "weak_main",
+      "candidate": null,
+      "goal_gain": null,
+      "nominal_gain": null,
+      "reason": "no_candidate_passed_selection"
+    }
+  ]
+}

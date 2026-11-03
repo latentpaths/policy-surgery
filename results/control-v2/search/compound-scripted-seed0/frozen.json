@@ -1,0 +1,1265 @@
+{
+  "condition": "compound",
+  "method": "scripted",
+  "seed": 0,
+  "protocol_sha256": "98afac33e2417a2e2dd1cc5bf45a704831d3f99b57f4bf20f9520ecd98ea7f45",
+  "selected": {
+    "id": 5,
+    "name": "scripted-5",
+    "hypothesis": "Budget-matched derivative-free input-gain/logit-bias search",
+    "ops": [
+      {
+        "op": "input_affine",
+        "scale": [
+          2.2123038343558097,
+          1.087367844342782,
+          1.6058242295914056,
+          0.39888418876575094,
+          0.9544465691122302,
+          1.2415171372991956,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "op": "output_affine",
+        "offset": [
+          0.4067960884797004,
+          -0.43497970739908853,
+          -0.41284344149593283,
+          0.16981034749983942
+        ]
+      }
+    ],
+    "development": {
+      "condition": {
+        "name": "compound",
+        "main_power": 0.8,
+        "side_power": 1.0,
+        "gravity": -11.5,
+        "wind": 12,
+        "turbulence": 1.0,
+        "mirrored": false
+      },
+      "episodes": 6,
+      "mean_return": -12.760782398996104,
+      "std_return": 44.86380717815236,
+      "solution_rate": 0.0,
+      "safe_landing_rate": 0.0,
+      "mean_steps": 114.16666666666667,
+      "crash_rate": 1.0,
+      "per_episode": [
+        {
+          "return": 69.00111483027939,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 109,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            0.04500751569867134,
+            -0.03872404247522354,
+            0.049168795347213745,
+            -0.13163214921951294,
+            0.04831491783261299,
+            -0.8780206441879272,
+            1.0,
+            1.0
+          ],
+          "action_counts": [
+            2,
+            11,
+            85,
+            11
+          ]
+        },
+        {
+          "return": -70.24660066619074,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 117,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            0.22125530242919922,
+            -0.02665138430893421,
+            0.5049053430557251,
+            -0.44172799587249756,
+            -0.11696451902389526,
+            3.2880477905273438,
+            1.0,
+            1.0
+          ],
+          "action_counts": [
+            25,
+            19,
+            67,
+            6
+          ]
+        },
+        {
+          "return": -21.6664131961612,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 104,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            -0.11968259513378143,
+            -0.04279620945453644,
+            -0.08944151550531387,
+            6.599822022224089e-09,
+            0.00025362090673297644,
+            8.674844309553009e-08,
+            1.0,
+            1.0
+          ],
+          "action_counts": [
+            23,
+            0,
+            63,
+            18
+          ]
+        },
+        {
+          "return": -51.72459307525725,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 97,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            0.11718664318323135,
+            -0.04131466522812843,
+            -0.02798823080956936,
+            -0.5055555701255798,
+            0.011807478964328766,
+            -3.007167100906372,
+            1.0,
+            1.0
+          ],
+          "action_counts": [
+            26,
+            2,
+            53,
+            16
+          ]
+        },
+        {
+          "return": -11.238531714509818,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 125,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            -0.0975736603140831,
+            -0.0428193099796772,
+            0.34720343351364136,
+            -2.5189319075025196e-08,
+            0.00031163013773038983,
+            -1.7363110771384527e-07,
+            1.0,
+            0.0
+          ],
+          "action_counts": [
+            33,
+            12,
+            74,
+            6
+          ]
+        },
+        {
+          "return": 9.31032942786301,
+          "benchmark_solved": false,
+          "safe_landing": false,
+          "steps": 133,
+          "truncated": false,
+          "crashed": true,
+          "final_observation": [
+            -0.10439567267894745,
+            -0.04318902641534805,
+            0.260677695274353,
+            -0.26909998059272766,
+            -0.0053944760002195835,
+            -1.4601914882659912,
+            1.0,
+            0.0
+          ],
+          "action_counts": [
+            39,
+            3,
+            83,
+            8
+          ]
+        }
+      ],
+      "diagnostics": [
+        {
+          "return": 69.00111483027939,
+          "trace": [
+            {
+              "step": 0,
+              "observation": [
+                0.005647182464599609,
+                1.3989436626434326,
+                0.5723375082015991,
+                -0.5322996973991394,
+                -0.006858866196125746,
+                -0.13593776524066925,
+                0.0,
+                0.0
+              ],
+              "action": 1
+            },
+            {
+              "step": 40,
+              "observation": [
+                0.12537269294261932,
+                0.7591115236282349,
+                0.014044065959751606,
+                -0.6111537218093872,
+                0.14385613799095154,
+                -0.03649463877081871,
+                0.0,
+                0.0
+              ],
+              "action": 2
+            },
+            {
+              "step": 80,
+              "observation": [
+                0.07064304500818253,
+                0.23746369779109955,
+                -0.19056203961372375,
+                -0.4876212477684021,
+                -0.023635700345039368,
+                -0.07551763951778412,
+                0.0,
+                0.0
+              ],
+              "action": 2
+            },
+            {
+              "step": 109,
+              "observation": [
+                0.04500751569867134,
+                -0.03872404247522354,
+                0.049168795347213745,
+                -0.13163214921951294,
+                0.04831491783261299,
+                -0.8780206441879272,
+                1.0,
+                1.0
+              ],
+              "action": null
+            }
+          ]
+        },
+        {
+          "return": -70.24660066619074,
+          "trace": [
+            {
+              "step": 0,
+              "observation": [
+                -0.0026428222190588713,
+                1.4172099828720093,
+                -0.26810795068740845,
+                0.2795412242412567,
+                0.003422183683142066,
+                0.06762918084859848,
+                0.0,
+                0.0
+              ],
+              "action": 3
+            },
+            {
+              "step": 40,
+              "observation": [
+                -0.037795256823301315,
+                1.1352254152297974,
+                0.03947732597589493,
+                -0.6864222884178162,
+                -0.07238689810037613,
+                -0.049848925322294235,
+                0.0,
+                0.0
+              ],
+              "action": 2
+            },
+            {
+              "step": 80,
+              "observation": [
+                0.04024858400225639,
+                0.5610938668251038,
+                0.3084624409675598,
+                -0.6315584182739258,
+                -0.2594479024410248,
+                -0.1235705241560936,
+                0.0,
+                0.0
+              ],
+              "action": 2
+            },
+            {
+              "step": 117,
+              "observation": [
+                0.22125530242919922,
+                -0.02665138430893421,
+                0.5049053430557251,
+                -0.44172799587249756,
+                -0.11696451902389526,
+                3.2880477905273438,
+                1.0,
+                1.0
+              ],
+              "action": null
+            }
+          ]
+        }
+      ]
+    },
+    "changed_parameters": 388,
+    "actor_sha256": "fda9de802cafa7e36e24d5c96d39d5bcef2e1d70dbf1a8e81e12ff544aee9bef",
+    "seconds": 0.027148916000442114
+  },
+  "validation": [
+    {
+      "candidate_id": 11,
+      "score": {
+        "condition": {
+          "name": "compound",
+          "main_power": 0.8,
+          "side_power": 1.0,
+          "gravity": -11.5,
+          "wind": 12,
+          "turbulence": 1.0,
+          "mirrored": false
+        },
+        "episodes": 12,
+        "mean_return": -49.5151860018285,
+        "std_return": 125.12733098188374,
+        "solution_rate": 0.0,
+        "safe_landing_rate": 0.0,
+        "mean_steps": 111.25,
+        "crash_rate": 1.0,
+        "per_episode": [
+          {
+            "return": -10.230072491762101,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 116,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.04574718326330185,
+              -0.04276491701602936,
+              -0.37446218729019165,
+              3.2999110111120444e-09,
+              0.00020508778106886894,
+              2.8156108555776882e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              15,
+              4,
+              73,
+              24
+            ]
+          },
+          {
+            "return": 27.135960356162542,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 142,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.13467693328857422,
+              -0.032609179615974426,
+              -0.0883181169629097,
+              -0.059696972370147705,
+              0.12527170777320862,
+              -0.3567827343940735,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              13,
+              1,
+              114,
+              14
+            ]
+          },
+          {
+            "return": 15.061594264855174,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 119,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.1286337822675705,
+              -0.030575241893529892,
+              -0.19496005773544312,
+              -0.13779693841934204,
+              0.15154854953289032,
+              -0.8488126993179321,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              15,
+              8,
+              82,
+              14
+            ]
+          },
+          {
+            "return": -33.66589193683599,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 113,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.21904750168323517,
+              -0.04362976923584938,
+              -0.2527608573436737,
+              -0.16285188496112823,
+              0.03144560009241104,
+              2.61637020111084,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              30,
+              3,
+              58,
+              22
+            ]
+          },
+          {
+            "return": -114.08659705531554,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 95,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.4844330847263336,
+              0.0646727904677391,
+              0.08994041383266449,
+              -0.6254681348800659,
+              0.4730735123157501,
+              -3.679797649383545,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              23,
+              7,
+              48,
+              17
+            ]
+          },
+          {
+            "return": -19.519801184240706,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 99,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.002821636153385043,
+              -0.04008996859192848,
+              0.5238895416259766,
+              -0.5247271656990051,
+              -0.029274893924593925,
+              3.0778231620788574,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              1,
+              16,
+              73,
+              9
+            ]
+          },
+          {
+            "return": 7.2063006042318705,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 102,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.4076157510280609,
+              -0.10271035879850388,
+              0.22019079327583313,
+              -0.030881917104125023,
+              -0.29218336939811707,
+              -1.0162365436553955,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              1,
+              12,
+              82,
+              7
+            ]
+          },
+          {
+            "return": -447.3515856780233,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 90,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.3965083956718445,
+              -0.08289816975593567,
+              2.4520516395568848,
+              -0.6321719288825989,
+              -2.8226563930511475,
+              -4.830804824829102,
+              0.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              0,
+              80,
+              10
+            ]
+          },
+          {
+            "return": -37.08059977176903,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 100,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.24353723227977753,
+              -0.043140068650245667,
+              -0.2999724745750427,
+              -0.43765386939048767,
+              0.02398866042494774,
+              3.0840604305267334,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              4,
+              10,
+              70,
+              16
+            ]
+          },
+          {
+            "return": 3.0610120887590995,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 112,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.1854391098022461,
+              -0.03247735649347305,
+              -0.14903904497623444,
+              -0.13942036032676697,
+              -0.09556200355291367,
+              -1.0349583625793457,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              7,
+              7,
+              86,
+              12
+            ]
+          },
+          {
+            "return": 11.42741633535853,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 146,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.01722431182861328,
+              -0.04024811089038849,
+              0.7160198092460632,
+              -0.21390162408351898,
+              0.03077581524848938,
+              -1.1699063777923584,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              2,
+              17,
+              100,
+              27
+            ]
+          },
+          {
+            "return": 3.8600324466374616,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 101,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.08328361809253693,
+              -0.025199666619300842,
+              0.1051267758011818,
+              -0.36732763051986694,
+              -0.22223703563213348,
+              2.5936214923858643,
+              0.0,
+              0.0
+            ],
+            "action_counts": [
+              1,
+              30,
+              55,
+              15
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": 5,
+      "score": {
+        "condition": {
+          "name": "compound",
+          "main_power": 0.8,
+          "side_power": 1.0,
+          "gravity": -11.5,
+          "wind": 12,
+          "turbulence": 1.0,
+          "mirrored": false
+        },
+        "episodes": 12,
+        "mean_return": -45.00480566295831,
+        "std_return": 96.46557999898388,
+        "solution_rate": 0.0,
+        "safe_landing_rate": 0.0,
+        "mean_steps": 96.0,
+        "crash_rate": 1.0,
+        "per_episode": [
+          {
+            "return": -20.65535267585028,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 96,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.020483780652284622,
+              -0.042741525918245316,
+              -0.4101375937461853,
+              0.00028050135006196797,
+              -0.0010258826659992337,
+              1.3607673321480718e-10,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              22,
+              4,
+              50,
+              20
+            ]
+          },
+          {
+            "return": 36.31731639642504,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 114,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.0425993911921978,
+              -0.04277224838733673,
+              -0.011790459044277668,
+              9.294749858668183e-09,
+              0.0008342631044797599,
+              -6.01752248030607e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              15,
+              2,
+              88,
+              9
+            ]
+          },
+          {
+            "return": -19.89057175869368,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 89,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.13624334335327148,
+              -0.03984849527478218,
+              -0.33110857009887695,
+              -0.44869235157966614,
+              0.03248761594295502,
+              -2.6291441917419434,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              17,
+              9,
+              51,
+              12
+            ]
+          },
+          {
+            "return": -26.865951264009453,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 112,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.1605723351240158,
+              -0.0427723191678524,
+              2.786748165561903e-09,
+              -3.238293855289953e-09,
+              -6.3517720263917e-05,
+              -1.2358055023753423e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              36,
+              1,
+              57,
+              18
+            ]
+          },
+          {
+            "return": -125.5817874229322,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 88,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.39789503812789917,
+              0.03658955916762352,
+              0.047029007226228714,
+              -0.4295124411582947,
+              0.5911300182342529,
+              -3.9471259117126465,
+              0.0,
+              1.0
+            ],
+            "action_counts": [
+              26,
+              8,
+              38,
+              16
+            ]
+          },
+          {
+            "return": -44.37838554100584,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 94,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.026294898241758347,
+              -0.03131284937262535,
+              0.5272393822669983,
+              -0.5274173617362976,
+              -0.13698558509349823,
+              3.5182418823242188,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              0,
+              17,
+              68,
+              9
+            ]
+          },
+          {
+            "return": -4.042789948278809,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 79,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.3044763505458832,
+              -0.050745416432619095,
+              0.10115224123001099,
+              -0.3677257299423218,
+              0.0665111243724823,
+              -3.098569869995117,
+              0.0,
+              1.0
+            ],
+            "action_counts": [
+              3,
+              15,
+              54,
+              7
+            ]
+          },
+          {
+            "return": -336.1927076442063,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 78,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.2630058228969574,
+              -0.019964851438999176,
+              2.2185006141662598,
+              -0.2742471992969513,
+              -2.387443780899048,
+              -3.493703842163086,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              1,
+              64,
+              13
+            ]
+          },
+          {
+            "return": -26.267593648858067,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 96,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.1750655174255371,
+              -0.0425402894616127,
+              -0.11229586601257324,
+              0.04243873059749603,
+              0.005722540896385908,
+              0.5076535940170288,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              9,
+              7,
+              66,
+              14
+            ]
+          },
+          {
+            "return": -20.693356881949484,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 83,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.07261934131383896,
+              -0.04280150309205055,
+              -0.3944062888622284,
+              -1.2099652391128757e-09,
+              0.000276873295661062,
+              -1.7782946670763522e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              9,
+              6,
+              57,
+              11
+            ]
+          },
+          {
+            "return": 19.204590733860996,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 124,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.03548288345336914,
+              -0.04075286537408829,
+              0.6004476547241211,
+              -0.1468418538570404,
+              0.02250060625374317,
+              -1.3163336515426636,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              4,
+              14,
+              84,
+              22
+            ]
+          },
+          {
+            "return": 28.988921699998457,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 99,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.1038307175040245,
+              -0.024617590010166168,
+              0.021484535187482834,
+              -0.24110129475593567,
+              -0.23255953192710876,
+              1.811976671218872,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              31,
+              47,
+              21
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "candidate_id": 4,
+      "score": {
+        "condition": {
+          "name": "compound",
+          "main_power": 0.8,
+          "side_power": 1.0,
+          "gravity": -11.5,
+          "wind": 12,
+          "turbulence": 1.0,
+          "mirrored": false
+        },
+        "episodes": 12,
+        "mean_return": -68.0661055242479,
+        "std_return": 92.97549025473486,
+        "solution_rate": 0.0,
+        "safe_landing_rate": 0.0,
+        "mean_steps": 100.83333333333333,
+        "crash_rate": 1.0,
+        "per_episode": [
+          {
+            "return": -19.05725713970243,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 97,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.0072998045943677425,
+              -0.041849102824926376,
+              -0.44988903403282166,
+              -0.008974520489573479,
+              -0.00820127408951521,
+              0.5316962003707886,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              3,
+              12,
+              56,
+              26
+            ]
+          },
+          {
+            "return": 37.523130062587484,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 109,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.0902799591422081,
+              -0.04279749467968941,
+              -0.01634817384183407,
+              -1.1109699826761243e-08,
+              0.0002591121883597225,
+              6.501681326653852e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              0,
+              8,
+              85,
+              16
+            ]
+          },
+          {
+            "return": 9.566492443116317,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 99,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.10024566948413849,
+              -0.04283429682254791,
+              -0.44215232133865356,
+              1.3199644044448178e-08,
+              0.0004231160564813763,
+              -4.6223000538248016e-08,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              7,
+              13,
+              66,
+              13
+            ]
+          },
+          {
+            "return": -37.920439421102415,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 111,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.26003608107566833,
+              -0.047497477382421494,
+              -0.5892640352249146,
+              -0.46242251992225647,
+              0.049926336854696274,
+              2.516631603240967,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              18,
+              55,
+              38
+            ]
+          },
+          {
+            "return": -142.8189285408832,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 90,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.4441409111022949,
+              0.05324479192495346,
+              0.05738915875554085,
+              -0.5417045950889587,
+              0.6010965704917908,
+              -3.8551948070526123,
+              0.0,
+              0.0
+            ],
+            "action_counts": [
+              19,
+              11,
+              40,
+              20
+            ]
+          },
+          {
+            "return": -55.05256137939447,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 94,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.03179588168859482,
+              -0.015416576527059078,
+              0.655023455619812,
+              -0.3540344834327698,
+              -0.369290292263031,
+              3.017092227935791,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              1,
+              16,
+              67,
+              10
+            ]
+          },
+          {
+            "return": -8.748266531160837,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 81,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.31183862686157227,
+              -0.04190796986222267,
+              0.05655407905578613,
+              -0.28403240442276,
+              0.2605178654193878,
+              -2.6423778533935547,
+              0.0,
+              1.0
+            ],
+            "action_counts": [
+              4,
+              14,
+              58,
+              5
+            ]
+          },
+          {
+            "return": -255.8472922737729,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 87,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              0.1889042854309082,
+              -0.0006931090611033142,
+              1.6870641708374023,
+              -0.08151432871818542,
+              -1.9891263246536255,
+              -1.1385201215744019,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              11,
+              66,
+              10
+            ]
+          },
+          {
+            "return": -52.238296483827014,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 121,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.3212341368198395,
+              -0.11414497345685959,
+              -0.3727227747440338,
+              -0.29924967885017395,
+              0.4055304527282715,
+              -0.9679621458053589,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              1,
+              9,
+              86,
+              25
+            ]
+          },
+          {
+            "return": -20.719649821132393,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 98,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.17733316123485565,
+              -0.034743860363960266,
+              -0.4774831235408783,
+              -0.3298892080783844,
+              -0.09825127571821213,
+              1.9124155044555664,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              4,
+              9,
+              71,
+              14
+            ]
+          },
+          {
+            "return": -19.427364931008626,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 126,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.053075216710567474,
+              -0.03492717817425728,
+              0.7252651453018188,
+              -0.42722460627555847,
+              -0.09494972229003906,
+              2.4947047233581543,
+              1.0,
+              1.0
+            ],
+            "action_counts": [
+              1,
+              15,
+              85,
+              25
+            ]
+          },
+          {
+            "return": -252.05283227469445,
+            "benchmark_solved": false,
+            "safe_landing": false,
+            "steps": 97,
+            "truncated": false,
+            "crashed": true,
+            "final_observation": [
+              -0.07009544223546982,
+              0.008563051000237465,
+              1.2152549028396606,
+              0.11786489933729172,
+              -2.0506393909454346,
+              -1.747361421585083,
+              1.0,
+              0.0
+            ],
+            "action_counts": [
+              0,
+              9,
+              76,
+              12
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "actor_sha256": "fda9de802cafa7e36e24d5c96d39d5bcef2e1d70dbf1a8e81e12ff544aee9bef",
+  "base_sha256": "1ac3f4a0268e4ae96211a5c78e3f076afc08c1f412c0d4de521918fe9cc77df6",
+  "training": "none",
+  "candidate_count": 12
+}

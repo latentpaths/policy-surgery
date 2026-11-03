@@ -1,0 +1,11 @@
+run,condition,method,candidate_id,selection_gain_fraction,approval_gain_fraction,approval_lower_fraction,approval_upper_fraction,nominal_gain_fraction,accepted,reasons
+compound-llm-glm-seed1,compound,GLM-5.3,,,,,,,False,no_candidate_passed_selection
+compound-llm-seed0,compound,GPT-OSS-120B,,,,,,,False,no_candidate_passed_selection
+compound-scripted-seed0,compound,Scripted search,,,,,,,False,no_candidate_passed_selection
+crosswind-llm-glm-seed1,crosswind,GLM-5.3,,,,,,,False,no_candidate_passed_selection
+crosswind-llm-seed0,crosswind,GPT-OSS-120B,3,0.109375,0.0625,-0.01171875,0.140625,0.046875,False,insufficient_completion_improvement
+crosswind-scripted-seed0,crosswind,Scripted search,,,,,,,False,no_candidate_passed_selection
+mirrored_thrusters-llm-seed0,mirrored_thrusters,GPT-OSS-120B,0,0.84375,0.85546875,0.7890625,0.91796875,-0.85546875,True,
+mirrored_thrusters-scripted-seed1,mirrored_thrusters,Scripted search,0,0.84375,0.85546875,0.7890625,0.91796875,-0.85546875,True,
+weak_main-llm-seed0,weak_main,GPT-OSS-120B,,,,,,,False,no_candidate_passed_selection
+weak_main-scripted-seed0,weak_main,Scripted search,,,,,,,False,no_candidate_passed_selection

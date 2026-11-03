@@ -1,0 +1,1622 @@
+{
+  "condition": {
+    "name": "crosswind",
+    "main_power": 1.0,
+    "side_power": 1.0,
+    "gravity": -10.0,
+    "wind": 18,
+    "turbulence": 1.5,
+    "mirrored": false
+  },
+  "episodes": 64,
+  "mean_return": 50.92812465995114,
+  "std_return": 140.67473876356777,
+  "solution_rate": 0.234375,
+  "safe_landing_rate": 0.28125,
+  "goal_success_rate": 0.140625,
+  "mean_steps": 199.75,
+  "crash_rate": 0.71875,
+  "per_episode": [
+    {
+      "return": 18.72031837417758,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 195,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.08195724338293076,
+        -0.0284816175699234,
+        -0.15425407886505127,
+        -0.02139790542423725,
+        0.17213156819343567,
+        -0.13364645838737488,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        31,
+        17,
+        108,
+        39
+      ]
+    },
+    {
+      "return": -101.7215956187105,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 111,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.3852948248386383,
+        0.057055387645959854,
+        -0.9517005681991577,
+        -0.5967947840690613,
+        0.3867907226085663,
+        -2.3398451805114746,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        27,
+        10,
+        40,
+        34
+      ]
+    },
+    {
+      "return": -167.20370904138957,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 149,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.44834908843040466,
+        0.02714925818145275,
+        2.0423998832702637,
+        -0.02694672718644142,
+        0.017613699659705162,
+        3.4755465984344482,
+        0.0,
+        0.0
+      ],
+      "action_counts": [
+        0,
+        43,
+        70,
+        36
+      ]
+    },
+    {
+      "return": 228.32440844299092,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 421,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.09330196678638458,
+        -0.00048933265497908,
+        0.0,
+        0.0,
+        -0.004471501335501671,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "action_counts": [
+        65,
+        81,
+        96,
+        179
+      ]
+    },
+    {
+      "return": 246.42174142650194,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 256,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.07685937732458115,
+        -0.0011283063795417547,
+        0.0,
+        0.0,
+        -0.002354246098548174,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        82,
+        30,
+        99,
+        45
+      ]
+    },
+    {
+      "return": 24.954360222583404,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 134,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.013226032257080078,
+        -0.03245958313345909,
+        0.4799882471561432,
+        -0.13870804011821747,
+        0.12722808122634888,
+        -0.8273107409477234,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        2,
+        21,
+        69,
+        42
+      ]
+    },
+    {
+      "return": 13.655254623487124,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 201,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.30798253417015076,
+        0.033089529722929,
+        0.28319883346557617,
+        0.045865822583436966,
+        0.25285494327545166,
+        0.1454194039106369,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        10,
+        52,
+        110,
+        29
+      ]
+    },
+    {
+      "return": -28.40103837958536,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 216,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.4187394976615906,
+        -0.09662782400846481,
+        -0.24553081393241882,
+        -0.04122289642691612,
+        0.30381324887275696,
+        -0.42262640595436096,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        34,
+        32,
+        103,
+        47
+      ]
+    },
+    {
+      "return": -101.66326755783787,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 167,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.6346214413642883,
+        -0.22922687232494354,
+        0.7195298075675964,
+        -0.1618463099002838,
+        -0.48891305923461914,
+        0.27127259969711304,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        8,
+        67,
+        86,
+        6
+      ]
+    },
+    {
+      "return": -71.01309039475477,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 191,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.3040659427642822,
+        -0.06695526093244553,
+        -0.4772725999355316,
+        -0.1662800908088684,
+        0.35564926266670227,
+        -0.543939471244812,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        25,
+        23,
+        101,
+        42
+      ]
+    },
+    {
+      "return": -94.87787909047321,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 151,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.13093185424804688,
+        -0.036702338606119156,
+        1.659346342086792,
+        -0.30479228496551514,
+        0.07370185852050781,
+        -1.7500097751617432,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        2,
+        49,
+        76,
+        24
+      ]
+    },
+    {
+      "return": -20.580201649515118,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 186,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.321491003036499,
+        -0.06871475279331207,
+        0.19680579006671906,
+        0.007732353173196316,
+        0.3875269889831543,
+        -0.13036030530929565,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        16,
+        29,
+        89,
+        52
+      ]
+    },
+    {
+      "return": 251.42275580558908,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 256,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.06031227111816406,
+        -0.0010441207559779286,
+        0.0,
+        0.0,
+        -0.0021909254137426615,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        98,
+        30,
+        99,
+        29
+      ]
+    },
+    {
+      "return": 254.01796305430014,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 222,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.22431430220603943,
+        0.03656788915395737,
+        0.0,
+        0.0,
+        0.33764201402664185,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        40,
+        16,
+        92,
+        74
+      ]
+    },
+    {
+      "return": 278.9035763817013,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 226,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.09956178814172745,
+        -0.001006033387966454,
+        0.0,
+        0.0,
+        0.003004944184795022,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        66,
+        29,
+        104,
+        27
+      ]
+    },
+    {
+      "return": 12.694348641064039,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 208,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.09147300571203232,
+        -0.027882805094122887,
+        0.07468917220830917,
+        -0.012931820005178452,
+        0.1904851794242859,
+        -0.0822683796286583,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        34,
+        23,
+        98,
+        53
+      ]
+    },
+    {
+      "return": -44.32524046318386,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 182,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.32435712218284607,
+        -0.09427495300769806,
+        0.06610020250082016,
+        -0.06573034077882767,
+        0.5046778917312622,
+        -0.47394895553588867,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        11,
+        17,
+        104,
+        50
+      ]
+    },
+    {
+      "return": 62.988672211000534,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 193,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.09086723625659943,
+        -0.03348608314990997,
+        0.06844513863325119,
+        -0.0946134701371193,
+        0.11415564268827438,
+        -0.553496241569519,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        25,
+        36,
+        96,
+        36
+      ]
+    },
+    {
+      "return": 307.0870716106456,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 322,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.08753223717212677,
+        -0.0012629532720893621,
+        0.0,
+        0.0,
+        0.0002576695987954736,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        65,
+        102,
+        104,
+        51
+      ]
+    },
+    {
+      "return": 10.15332321544048,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 189,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.3869686722755432,
+        0.015690002590417862,
+        0.07789790630340576,
+        -0.15202732384204865,
+        -0.12158875912427902,
+        -0.8097288012504578,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        30,
+        38,
+        97,
+        24
+      ]
+    },
+    {
+      "return": -31.93130320414167,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 190,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.0723194107413292,
+        -0.03239424526691437,
+        -0.7224647402763367,
+        -0.10946943610906601,
+        0.12804511189460754,
+        -0.6550885438919067,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        26,
+        27,
+        92,
+        45
+      ]
+    },
+    {
+      "return": 23.544359736728055,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 149,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.19820518791675568,
+        -0.0357230082154274,
+        -0.3305540382862091,
+        -0.17276617884635925,
+        0.08604452759027481,
+        -0.9841521382331848,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        8,
+        34,
+        87,
+        20
+      ]
+    },
+    {
+      "return": -25.885512901113557,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 177,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.13126306235790253,
+        -0.03427930176258087,
+        -0.8420493006706238,
+        -0.1334412544965744,
+        0.10410010814666748,
+        -0.7773460149765015,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        28,
+        20,
+        86,
+        43
+      ]
+    },
+    {
+      "return": -11.91126497813731,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 117,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.3780284821987152,
+        -0.06551223248243332,
+        -0.632042646408081,
+        -0.26398175954818726,
+        -0.004575254861265421,
+        -2.048236608505249,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        2,
+        25,
+        65,
+        25
+      ]
+    },
+    {
+      "return": -38.75155216733489,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 97,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.3886133134365082,
+        0.06501639634370804,
+        -0.7932456731796265,
+        -0.31840255856513977,
+        0.26207077503204346,
+        0.7990657091140747,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        7,
+        15,
+        54,
+        21
+      ]
+    },
+    {
+      "return": 22.861008545643728,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 183,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.1619710922241211,
+        -0.031881049275398254,
+        -0.4037128984928131,
+        -0.0540478378534317,
+        -0.009029594250023365,
+        -1.2548469305038452,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        12,
+        34,
+        91,
+        46
+      ]
+    },
+    {
+      "return": -5.3139004036138715,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 192,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.20172938704490662,
+        -0.02425610087811947,
+        -0.029956456273794174,
+        -0.008908303454518318,
+        0.16688373684883118,
+        -0.06938954442739487,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        21,
+        37,
+        100,
+        34
+      ]
+    },
+    {
+      "return": -55.49397836409543,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 190,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.28406229615211487,
+        0.005531332455575466,
+        -0.49075207114219666,
+        -0.07100583612918854,
+        -0.18121732771396637,
+        -0.9341893196105957,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        27,
+        25,
+        99,
+        39
+      ]
+    },
+    {
+      "return": 215.4364862229353,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 224,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.16738824546337128,
+        -0.00391437066718936,
+        0.0,
+        0.0,
+        -0.026103947311639786,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        66,
+        28,
+        104,
+        26
+      ]
+    },
+    {
+      "return": 288.92608696396087,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 256,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.058168888092041016,
+        -0.0008849764126352966,
+        0.0,
+        0.0,
+        0.0025543877854943275,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        70,
+        53,
+        105,
+        28
+      ]
+    },
+    {
+      "return": -91.16210068002817,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 144,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.03901968151330948,
+        -0.029206421226263046,
+        1.485335111618042,
+        -0.32592859864234924,
+        0.16956695914268494,
+        -2.0491719245910645,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        7,
+        31,
+        84,
+        22
+      ]
+    },
+    {
+      "return": 9.883890414702691,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 187,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.051827143877744675,
+        -0.03061300702393055,
+        -0.4326162338256836,
+        -0.09380266070365906,
+        0.15113425254821777,
+        -0.5734171867370605,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        21,
+        24,
+        98,
+        44
+      ]
+    },
+    {
+      "return": -32.63047776404814,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 188,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.3232080042362213,
+        -0.04159107431769371,
+        0.5198524594306946,
+        -0.03134287893772125,
+        0.13289766013622284,
+        -0.25848740339279175,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        21,
+        41,
+        95,
+        31
+      ]
+    },
+    {
+      "return": 274.003837233976,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 290,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.009262656792998314,
+        -0.0012916349805891514,
+        0.0,
+        0.0,
+        0.00015945866471156478,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        112,
+        39,
+        101,
+        38
+      ]
+    },
+    {
+      "return": -156.53020305772614,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 92,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.5039764642715454,
+        -0.1546480804681778,
+        0.42733103036880493,
+        -0.09941470623016357,
+        1.6439152956008911,
+        0.22845563292503357,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        4,
+        10,
+        47,
+        31
+      ]
+    },
+    {
+      "return": 14.30240984866225,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 163,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.3030727505683899,
+        0.02614947408437729,
+        -0.18809494376182556,
+        -0.05466107651591301,
+        -0.225444033741951,
+        -0.5508246421813965,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        10,
+        26,
+        86,
+        41
+      ]
+    },
+    {
+      "return": 254.24372693003295,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 244,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.10572729259729385,
+        -0.0011546635068953037,
+        0.0,
+        0.0,
+        0.0010283582378178835,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        88,
+        26,
+        90,
+        40
+      ]
+    },
+    {
+      "return": 198.9078018361642,
+      "benchmark_solved": false,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 425,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.2576766014099121,
+        0.042387496680021286,
+        0.0,
+        0.0,
+        0.3882124722003937,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        39,
+        52,
+        104,
+        230
+      ]
+    },
+    {
+      "return": 195.88129638388895,
+      "benchmark_solved": false,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 270,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.3709278106689453,
+        -0.09223797917366028,
+        0.0,
+        0.0,
+        -0.3226768970489502,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        21,
+        125,
+        102,
+        22
+      ]
+    },
+    {
+      "return": -29.126691221535836,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 204,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.2028706967830658,
+        -0.025592662394046783,
+        -0.45932310819625854,
+        -0.10250791907310486,
+        0.012310587801039219,
+        -1.0096237659454346,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        22,
+        37,
+        102,
+        43
+      ]
+    },
+    {
+      "return": 17.492697756823688,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 142,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.27239400148391724,
+        0.022325215861201286,
+        0.33960551023483276,
+        -0.11592425405979156,
+        -0.26550063490867615,
+        -0.09218058735132217,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        14,
+        20,
+        77,
+        31
+      ]
+    },
+    {
+      "return": -22.117876951511633,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 171,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.11686277389526367,
+        -0.037925995886325836,
+        -0.8182342648506165,
+        -0.1622275561094284,
+        0.05850324034690857,
+        -0.9253158569335938,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        12,
+        32,
+        97,
+        30
+      ]
+    },
+    {
+      "return": -146.02233765145678,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 179,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.3163815140724182,
+        -0.05539071932435036,
+        -0.24728608131408691,
+        -0.04969409853219986,
+        -1.6714457273483276,
+        -0.2939261198043823,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        5,
+        65,
+        89,
+        20
+      ]
+    },
+    {
+      "return": 1.620800702675652,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 166,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.3438275456428528,
+        0.053393494337797165,
+        0.16923941671848297,
+        -0.024373361840844154,
+        0.24113720655441284,
+        0.2849195599555969,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        31,
+        27,
+        97,
+        11
+      ]
+    },
+    {
+      "return": -8.05493696547093,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 136,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.21535634994506836,
+        -0.040129054337739944,
+        -0.4575701653957367,
+        -0.09173257648944855,
+        -0.07496783137321472,
+        0.5636852383613586,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        13,
+        10,
+        76,
+        37
+      ]
+    },
+    {
+      "return": -31.5582864865395,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 223,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.24700088798999786,
+        -0.06554198265075684,
+        0.20126771926879883,
+        -0.11024728417396545,
+        0.3611532151699066,
+        -0.815800666809082,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        30,
+        55,
+        93,
+        45
+      ]
+    },
+    {
+      "return": -10.810149382168106,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 208,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.2780749201774597,
+        -0.02553647942841053,
+        -0.40024375915527344,
+        -0.08685674518346786,
+        0.06446360796689987,
+        -0.6148889660835266,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        7,
+        33,
+        99,
+        69
+      ]
+    },
+    {
+      "return": -20.665353768270748,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 202,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.11351089179515839,
+        -0.035825181752443314,
+        -0.43265384435653687,
+        -0.09165260940790176,
+        -0.08475137501955032,
+        0.5243600606918335,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        38,
+        31,
+        106,
+        27
+      ]
+    },
+    {
+      "return": 226.79868590581032,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 247,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.11527585983276367,
+        -0.0008111977367661893,
+        0.0,
+        0.0,
+        0.0032459397334605455,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        90,
+        28,
+        101,
+        28
+      ]
+    },
+    {
+      "return": 165.50027976157662,
+      "benchmark_solved": false,
+      "safe_landing": true,
+      "goal_success": false,
+      "steps": 302,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        0.3227705955505371,
+        -0.077829509973526,
+        0.0,
+        0.0,
+        -0.44505640864372253,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "action_counts": [
+        43,
+        148,
+        102,
+        9
+      ]
+    },
+    {
+      "return": 295.7667973079227,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 242,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.04357204586267471,
+        -0.0009679818176664412,
+        0.0,
+        0.0,
+        0.0007335279369726777,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        75,
+        15,
+        90,
+        62
+      ]
+    },
+    {
+      "return": 33.23643908374663,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 140,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.023499201983213425,
+        -0.04023240879178047,
+        0.5458278656005859,
+        -0.07894551008939743,
+        0.028520699590444565,
+        -1.1191948652267456,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        6,
+        39,
+        80,
+        15
+      ]
+    },
+    {
+      "return": 293.3558580571485,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 294,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.026529693976044655,
+        -0.0011320614721626043,
+        0.0,
+        0.0,
+        0.0006941758329048753,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        93,
+        57,
+        112,
+        32
+      ]
+    },
+    {
+      "return": -24.475015568113832,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 176,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.20629048347473145,
+        -0.03951325640082359,
+        0.5829263925552368,
+        -0.11416938900947571,
+        0.16162797808647156,
+        -0.890281081199646,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        4,
+        27,
+        99,
+        46
+      ]
+    },
+    {
+      "return": 42.29245226396117,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 200,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.10984325408935547,
+        -0.029856231063604355,
+        -0.26666420698165894,
+        -0.07369622588157654,
+        0.16108201444149017,
+        -0.45420533418655396,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        8,
+        43,
+        99,
+        50
+      ]
+    },
+    {
+      "return": 296.32679540332776,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 243,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.07614688575267792,
+        -1.6977786799543537e-05,
+        0.0,
+        0.0,
+        -0.006285729818046093,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        71,
+        24,
+        108,
+        40
+      ]
+    },
+    {
+      "return": 26.274092552400987,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 210,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.1103663444519043,
+        -0.04000131040811539,
+        -0.006654927972704172,
+        -0.055570088326931,
+        -0.03170235455036163,
+        0.30553749203681946,
+        0.0,
+        1.0
+      ],
+      "action_counts": [
+        46,
+        39,
+        100,
+        25
+      ]
+    },
+    {
+      "return": -1.7836824729585743,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 124,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.42481404542922974,
+        -0.04229767620563507,
+        0.3963962197303772,
+        -0.018687371164560318,
+        0.2870410084724426,
+        1.0752785205841064,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        3,
+        4,
+        74,
+        43
+      ]
+    },
+    {
+      "return": 4.560660329715503,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 106,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.3729696273803711,
+        -0.005505027715116739,
+        -0.658432126045227,
+        -0.05670897290110588,
+        0.08053400367498398,
+        0.521414577960968,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        4,
+        15,
+        65,
+        22
+      ]
+    },
+    {
+      "return": -316.1640967792729,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 169,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.0012946128845214844,
+        0.009089193306863308,
+        1.7009706497192383,
+        0.13287582993507385,
+        -2.0592405796051025,
+        -1.7416881322860718,
+        1.0,
+        0.0
+      ],
+      "action_counts": [
+        24,
+        31,
+        103,
+        11
+      ]
+    },
+    {
+      "return": 47.035370081559876,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 174,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.048548221588134766,
+        -0.029744651168584824,
+        0.23418152332305908,
+        -0.06448987871408463,
+        0.16742819547653198,
+        -0.5172808170318604,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        18,
+        34,
+        99,
+        23
+      ]
+    },
+    {
+      "return": -13.594244818051138,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 158,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        -0.2594202160835266,
+        -0.05805479362607002,
+        -0.37121453881263733,
+        -0.11079292744398117,
+        0.29465049505233765,
+        -0.27427735924720764,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        5,
+        12,
+        81,
+        60
+      ]
+    },
+    {
+      "return": 9.04556209784458,
+      "benchmark_solved": false,
+      "safe_landing": false,
+      "goal_success": false,
+      "steps": 187,
+      "truncated": false,
+      "crashed": true,
+      "final_observation": [
+        0.27435073256492615,
+        -0.07530325651168823,
+        0.3044893145561218,
+        -0.12459265440702438,
+        -0.29304057359695435,
+        -0.1990508735179901,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        18,
+        48,
+        104,
+        17
+      ]
+    },
+    {
+      "return": 296.5277765872211,
+      "benchmark_solved": true,
+      "safe_landing": true,
+      "goal_success": true,
+      "steps": 227,
+      "truncated": false,
+      "crashed": false,
+      "final_observation": [
+        -0.05389375612139702,
+        -0.0007818722515366971,
+        0.0,
+        0.0,
+        0.0008065371075645089,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "action_counts": [
+        67,
+        19,
+        109,
+        32
+      ]
+    }
+  ],
+  "measurement_actor_sha256": "77ee7151c1739bb68d5ec8256d0e7ce9a4e05ec34ed0e2875d63de5116dff850"
+}

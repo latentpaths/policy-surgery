@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Kolkata",
+  "protocol_sha256": "eb09d91ba85c49357ce313fef22efcd2418f176e03f1681431d697ff62ec81c7",
+  "source_hashes": {
+    "/Users/ayushb/home/spaces/latentpaths/repositories/latentpaths/self-editing-agents/scripts/compare_control_objectives.py": "9bba32b481c9055415d344ddd53a43027a8b0e0c4032234283835af1df163dfa",
+    "src/self_patch/control/__init__.py": "68c6d38213d2d15c583d7c6d5751767803bb2405699f140604786e66b2148312",
+    "src/self_patch/control/acceptance.py": "b692d9e5e51c4ecb176e3efb2a2645548ea986681222c3179079d8dba6efc0f2",
+    "src/self_patch/control/campaign.py": "cc5c49e6a24f3449a23ab53bbf75e3cace9f3beb33b1a1d4dc773d3906536de8",
+    "src/self_patch/control/cli.py": "180a2386407925776307bbe39cced09c421c7687776512737e527cad3df7ac1e",
+    "src/self_patch/control/policy.py": "b51c6c5d4d291f519a1d9f21c0700b1e650a3fffcda0dc7d6a60d17f91c73bab",
+    "src/self_patch/control/report.py": "cab102e14ba55f4ae7a367c4e01cbf702a1d6503f85bcc24250b2b7621b193ef",
+    "src/self_patch/control/world.py": "9e38e4707087ca49d93f1b0a624b430453e24ebb7bdb2365c1e9b2a68e62e9a6",
+    "src/self_patch/editors.py": "4e9e9cbbfef0e8d4c2f2b50e56a7d539dff7f2541e11379625dc9fec4032ad6e"
+  },
+  "editor": {
+    "model": "openai/gpt-oss-120b",
+    "input_price": 0.037,
+    "output_price": 0.136
+  },
+  "budget_before": {
+    "cap_usd": 20.0,
+    "estimated_committed_usd": 0.5948945,
+    "pending_requests": 3,
+    "requests": 76
+  },
+  "primary_question": "Does completion-guided generation yield more approved harder-condition repairs?",
+  "analysis": "Report all 36 runs and matched objective contrasts over three search seeds; exploratory, one target. Shared starts are not independent replications.",
+  "fixed_limits": "12 proposals and 28 turns per run; existing cumulative $20 ledger cap; no new GPU",
+  "selection": "Identical completion selection and approval for both generation objectives",
+  "comparison_limits": "Changes objective instructions and adaptive ranking; completion arm additionally targets nominal retention. Not a pure metric-only ablation. Historical results are context only."
+}
