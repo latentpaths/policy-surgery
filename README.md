@@ -118,5 +118,3 @@ evidence. Generated outputs, weights, new runs, and author tooling stay ignored.
 
 Code: MIT. Author-created records and media: CC BY 4.0. See [NOTICE.md](NOTICE.md)
 and [CITATION.cff](CITATION.cff).
-
-[Citation guide](CITATION.md) · [BibTeX](CITATION.bib)
