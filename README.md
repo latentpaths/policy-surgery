@@ -4,7 +4,7 @@ A frozen GPT-OSS-120B edits a pretrained LunarLander PPO actor after its dynamic
 change. The edited policy runs alone, with no gradient updates or LLM calls during
 deployment. Inspired by [Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/).
 
-[Article and demos](https://www.latentpaths.com/writings/policy-surgery) · [Attribution and terms](NOTICE.md)
+[Project](https://www.latentpaths.com/projects/policy-surgery) · [Article and demos](https://www.latentpaths.com/writings/policy-surgery) · [Attribution and terms](NOTICE.md)
 
 ## Reproduce
 
@@ -69,7 +69,11 @@ seeds are not independent replications across policies.
 
 Exact settings, prompts, edits, decisions, and episodes live in `results/`.
 `results/provenance/` preserves source bytes authenticated by the acquisition
-manifest. Older reversal measurements and their protocols remain separate.
+manifest. Historical reports describe earlier campaigns and retain their original names
+and conclusions: [initial completion analysis](results/REPORT.md),
+[matched objective campaign](results/control-objective-comparison-v1/REPORT.md),
+and [independent approval and final test](results/control-objective-comparison-gate-v1/REPORT.md).
+Use the results above and `policy-surgery reproduce` for the current account.
 
 ## Weights, figures, and demos
 
