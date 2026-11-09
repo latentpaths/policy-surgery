@@ -4,7 +4,7 @@ A frozen GPT-OSS-120B edits a pretrained LunarLander PPO actor after its dynamic
 change. The edited policy runs alone, with no gradient updates or LLM calls during
 deployment. Inspired by [Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/).
 
-[Project](https://www.latentpaths.com/projects/policy-surgery) · [Article and demos](https://www.latentpaths.com/writings/policy-surgery) · [Attribution and terms](NOTICE.md)
+[Article and demos](https://www.latentpaths.com/writings/policy-surgery) · [Attribution and terms](NOTICE.md)
 
 ## Reproduce
 
