@@ -118,3 +118,47 @@ evidence. Generated outputs, weights, new runs, and author tooling stay ignored.
 
 Code: MIT. Author-created records and media: CC BY 4.0. See [NOTICE.md](NOTICE.md)
 and [CITATION.cff](CITATION.cff).
+
+## Citation
+
+<!-- BEGIN generated citations -->
+
+Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
+
+### Writing
+
+```bibtex
+@misc{bodadearticlepolicysurgery,
+  author = {Bodade, Ayush},
+  title = {{You Don’t Need Astra to Edit a Model’s Weights}},
+  year = {2026},
+  month = {11},
+  day = {03},
+  date = {2026-11-03},
+  howpublished = {Latent Paths},
+  url = {https://www.latentpaths.com/writings/policy-surgery},
+  note = {Blog post}
+}
+```
+
+[Citation file](https://www.latentpaths.com/citations/article/policy-surgery.bib) · [Work](https://www.latentpaths.com/writings/policy-surgery)
+
+### Software
+
+```bibtex
+@software{bodadeprojectpolicysurgery,
+  author = {Bodade, Ayush},
+  title = {{Policy Surgery: Can an LLM repair a policy by editing its weights?}},
+  year = {2026},
+  month = {11},
+  day = {03},
+  date = {2026-11-03},
+  url = {https://github.com/latentpaths/policy-surgery},
+  version = {1.0.0},
+  note = {Research software. Specify the commit or version used.}
+}
+```
+
+[Citation file](https://www.latentpaths.com/citations/project/policy-surgery.bib) · [Work](https://github.com/latentpaths/policy-surgery)
+
+<!-- END generated citations -->
