@@ -54,6 +54,18 @@ deployments: 420 simulator replays. No inference calls are made. Figures and fou
 fixed-seed demos go to `output/`; rendering requires `ffmpeg`. Upstream weight
 terms are separate, and reconstructed checkpoints stay out of Git.
 
+### Retained article artifacts
+
+[`article-assets/`](article-assets/) preserves the editable
+[completion-effects](article-assets/completion-effects.svg) and
+[paired-outcomes](article-assets/paired-outcomes.svg) figures, plus the
+[seed-1000 reversal replay metadata](article-assets/reversal-llm.json) used by the
+website's two-policy demo. These exact exports were moved from the website on
+10 November 2026. The JSON records both actor hashes and episode traces; it is
+an illustrative replay, separate from the 256-start evaluation. Regenerated
+figures and videos still go to `output/`. The website retains only embedded
+images, videos, and posters.
+
 ## New runs
 
 ```sh
