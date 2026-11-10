@@ -125,8 +125,6 @@ and [CITATION.cff](CITATION.cff).
 
 Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
 
-### Writing
-
 ```bibtex
 @misc{bodadearticlepolicysurgery,
   author = {Bodade, Ayush},
@@ -142,23 +140,5 @@ Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-89
 ```
 
 [Citation file](https://www.latentpaths.com/citations/article/policy-surgery.bib) · [Work](https://www.latentpaths.com/writings/policy-surgery)
-
-### Software
-
-```bibtex
-@software{bodadeprojectpolicysurgery,
-  author = {Bodade, Ayush},
-  title = {{Policy Surgery: Can an LLM repair a policy by editing its weights?}},
-  year = {2026},
-  month = {11},
-  day = {03},
-  date = {2026-11-03},
-  url = {https://github.com/latentpaths/policy-surgery},
-  version = {1.0.0},
-  note = {Research software. Specify the commit or version used.}
-}
-```
-
-[Citation file](https://www.latentpaths.com/citations/project/policy-surgery.bib) · [Work](https://github.com/latentpaths/policy-surgery)
 
 <!-- END generated citations -->
