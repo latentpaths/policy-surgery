@@ -123,8 +123,6 @@ and [CITATION.cff](CITATION.cff).
 
 <!-- BEGIN generated citations -->
 
-Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-8905). [Complete bibliography](https://www.latentpaths.com/citations/all.bib).
-
 ```bibtex
 @misc{bodadearticlepolicysurgery,
   author = {Bodade, Ayush},
@@ -138,7 +136,5 @@ Citation metadata matches the [ORCID record](https://orcid.org/0009-0007-2252-89
   note = {Blog post}
 }
 ```
-
-[Citation file](https://www.latentpaths.com/citations/article/policy-surgery.bib) · [Work](https://www.latentpaths.com/writings/policy-surgery)
 
 <!-- END generated citations -->
